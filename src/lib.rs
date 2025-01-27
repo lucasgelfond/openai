@@ -8,6 +8,7 @@ use std::env::VarError;
 use std::sync::RwLock;
 
 pub mod assistants;
+pub use assistants::*;
 pub mod chat;
 pub mod client;
 pub mod completions;
