@@ -1,0 +1,10 @@
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/libautocfg-ee1429765a2b8540.rmeta: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs
+
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/libautocfg-ee1429765a2b8540.rlib: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs
+
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/autocfg-ee1429765a2b8540.d: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs
+
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs:

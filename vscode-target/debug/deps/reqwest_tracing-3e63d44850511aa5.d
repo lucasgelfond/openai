@@ -1,0 +1,8 @@
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/libreqwest_tracing-3e63d44850511aa5.rmeta: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/middleware.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/reqwest_otel_span_builder.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/reqwest_otel_span_macro.rs
+
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/reqwest_tracing-3e63d44850511aa5.d: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/middleware.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/reqwest_otel_span_builder.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/reqwest_otel_span_macro.rs
+
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/lib.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/middleware.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/reqwest_otel_span_builder.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-tracing-0.5.5/src/reqwest_otel_span_macro.rs:

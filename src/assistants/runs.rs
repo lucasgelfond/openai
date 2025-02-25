@@ -2,6 +2,8 @@ use derive_builder::Builder;
 use either::Either;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
+use schemars::schema::RootSchema;
+use serde::ser::{ SerializeMap, Serializer};
 
 use crate::{assistants::Tool, chat::ToolCall, client::OpenAiClient, ApiResponseOrError};
 
@@ -236,6 +238,77 @@ pub struct CreateRunRequest {
     #[serde(skip_serializing_if = "Option::is_none")]
     #[builder(default)]
     pub max_completion_tokens: Option<u32>,
+}
+
+// Custom wrapper around RootSchema that ensures 'required' field is always serialized
+#[derive(Debug, Clone)]
+pub struct CustomRootSchema(pub RootSchema);
+
+impl From<RootSchema> for CustomRootSchema {
+    fn from(schema: RootSchema) -> Self {
+        CustomRootSchema(schema)
+    }
+}
+
+impl<'de> Deserialize<'de> for CustomRootSchema {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+    {
+        let schema = RootSchema::deserialize(deserializer)?;
+        Ok(CustomRootSchema(schema))
+    }
+}
+
+impl Serialize for CustomRootSchema {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        // First serialize the RootSchema normally to a Value
+        let value = serde_json::to_value(&self.0).map_err(serde::ser::Error::custom)?;
+        
+        // If it's an object, ensure it has the required schema structure
+        if let serde_json::Value::Object(mut map) = value {
+            if let Some(serde_json::Value::Object(ref mut schema)) = map.get_mut("schema") {
+                // Ensure schema has the required field, even if empty
+                if !schema.contains_key("required") {
+                    schema.insert("required".to_string(), serde_json::Value::Array(vec![]));
+                }
+            }
+            
+            // Serialize the modified map
+            let mut map_ser = serializer.serialize_map(Some(map.len()))?;
+            for (k, v) in map {
+                map_ser.serialize_entry(&k, &v)?;
+            }
+            map_ser.end()
+        } else {
+            // If not an object, serialize as is
+            serde_json::Value::serialize(&value, serializer)
+        }
+    }
+}
+
+// Update the Function struct to use our custom wrapper
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Function {
+    pub name: String,
+    pub description: String,
+    #[serde(flatten)]  // Use flatten to maintain the same JSON structure
+    pub parameters: CustomRootSchema,
+}
+
+// Then update creation of Function to use this new type
+// For example:
+impl Function {
+    pub fn new(name: String, description: String, parameters: RootSchema) -> Self {
+        Function {
+            name,
+            description,
+            parameters: CustomRootSchema(parameters),
+        }
+    }
 }
 
 impl OpenAiClient {

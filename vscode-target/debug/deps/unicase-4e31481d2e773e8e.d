@@ -1,0 +1,10 @@
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/libunicase-4e31481d2e773e8e.rmeta: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/ascii.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/mod.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/map.rs
+
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/libunicase-4e31481d2e773e8e.rlib: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/ascii.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/mod.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/map.rs
+
+/Users/lucasgelfond-footprint/otherrepos/openai/vscode-target/debug/deps/unicase-4e31481d2e773e8e.d: /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/lib.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/ascii.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/mod.rs /Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/map.rs
+
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/lib.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/ascii.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/mod.rs:
+/Users/lucasgelfond-footprint/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.1/src/unicode/map.rs:
